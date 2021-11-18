@@ -7,8 +7,13 @@ function App() {
   
   return (
     <div className="App">
-      <HeaderNav />
-      <People />
+      <div className="nav">
+        <HeaderNav />
+      </div>
+      <div className="card-grid">
+        <People />
+      </div>
+      
       
     </div>
   );

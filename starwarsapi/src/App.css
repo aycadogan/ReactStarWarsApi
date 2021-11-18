@@ -4,6 +4,8 @@
   font-family: url('./font/DINNextW01Regular.otf');
   color: #999;
   cursor: pointer;
+
+  
 }
 
 .nav .brand-logo{
@@ -17,5 +19,4 @@
   font-weight: 500;
   font-style: bold;
 }
-
 
