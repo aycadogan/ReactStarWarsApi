@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  font-size: 1.875rem;
+  font-family: url('./font/DINNextW01Regular.otf');
+  color: #999;
+  cursor: pointer;
+}
+
+.nav .brand-logo{
+  width: 300px;
+  height:auto;
+  margin-top: 2rem;
+}
+
+.nav h1{
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: bold;
+}
+
+
