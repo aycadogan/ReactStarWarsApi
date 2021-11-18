@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
+import CharInfo from './CharInfo.jsx'
+import PeopleList from './PeopleList.jsx'
 
 
-const People = () => {
+const People = ({people}) => {
 
     const [data, setData] = useState([])
 
@@ -14,16 +16,8 @@ const People = () => {
 
     return (
         <div>
-            {data && data.map((item) => (
-                <div className="card" key={item.name}>
-                    <div>
-                        <p className="card-name">{item.name}</p>
-                    </div>
-                    
+            <PeopleList data={data}/>
 
-                </div>
-            )
-            )}
         </div>
     )
 }
