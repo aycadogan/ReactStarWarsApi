@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../img/sw.png'
+import logo from '../sw.png'
 import '../App.css'
 
 const HeaderNav = () => {

@@ -1,17 +1,23 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+}
+
 .App {
   text-align: center;
   font-size: 1.875rem;
   font-family: url('./font/DINNextW01Regular.otf');
   color: #999;
-  cursor: pointer;
-
-  
+  cursor: pointer;  
 }
 
 .nav .brand-logo{
   width: 300px;
   height:auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .nav h1{
@@ -20,3 +26,76 @@
   font-style: bold;
 }
 
+img {
+    width: 900px;
+    height: 600px;
+    
+}
+:root {
+    --border: rgba(0, 0, 0, 0.1);
+}
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2 {
+    height: 4rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.wrapper {
+    width: 96%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card-grid {
+    /* margin: 2em 0; */
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
+    grid-gap: 48px;
+    grid-auto-rows: 40rem;
+    
+}
+.card {
+    padding: 0px;
+    box-shadow: 0px 2px 4px var(--border);
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.card-image {
+    max-height: 50px;
+    
+
+    img {
+        min-height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: left;
+    }
+}
+
+p{
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+}
+
+.span{
+    color: #9e4f60;
+    text-transform: capitalize;
+}
+
+.card-content {
+    text-align: right;
+}
+.card-list {
+    margin-top: 16px;
+}
