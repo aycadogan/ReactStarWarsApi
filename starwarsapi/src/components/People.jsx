@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import '../App.css'
-import SearchCharacter from './SearchCharacter.jsx'
 
 const People = () => {
 
@@ -16,7 +15,6 @@ const People = () => {
     return (
        
         <div className="wrapper">
-            <SearchCharacter items={items}/>
             <ul className="card-grid">
             {items && items.map((item) => (
                 <li>

@@ -13,6 +13,7 @@
   cursor: pointer;  
 }
 
+
 .nav .brand-logo{
   width: 300px;
   height:auto;
@@ -24,6 +25,7 @@
   font-size: 2rem;
   font-weight: 500;
   font-style: bold;
+  margin-bottom: 2rem;
 }
 
 img {
@@ -39,7 +41,6 @@ ol {
     list-style: none;
 }
 
-h1,
 h2 {
     height: 4rem;
     margin-bottom: 5rem;
