@@ -13,6 +13,12 @@
   cursor: pointer;  
 }
 
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
 
 .nav .brand-logo{
   width: 300px;
@@ -21,12 +27,26 @@
   margin-bottom: 2rem;
 }
 
-.nav h1{
-  font-size: 2rem;
-  font-weight: 500;
-  font-style: bold;
-  margin-bottom: 2rem;
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #999;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: bold;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.05em;
 }
+
+.nav .navLink ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+
+
 
 img {
     width: 900px;
